@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="cal.css">
+    <script src="cal.js">
+
+    </script>
+</head>
+<body>
+    <div class="main-body">
+        <div class="calc">
+            <div class="output">
+                <input type="text" id="etext">
+
+            </div>
+         <div class="buttons">
+            <button onclick="clearDisplay()" class="clearDisplay">clear</button>
+        </div>
+            <div class="buttons">
+                <button onclick="buttons('7')" class="but">7</button>
+                <button onclick="buttons('8')" class="but" >8</button>
+                <button onclick="buttons('9')" class="but" >9</button>
+                <button onclick="buttons('+')" class="but" >+</button>
+            </div>
+            <div class="buttons">
+                <button onclick="buttons('4')" class="but" >4</button>
+                <button onclick="buttons('5')" class="but" >5</button>
+                <button onclick="buttons('6')" class="but" >6</button>
+                <button onclick="buttons('-')" class="but">-</button>
+            </div>
+            <div class="buttons">
+                <button onclick="buttons('1')" class="but">1</button>
+                <button onclick="buttons('2')" class="but">2</button>
+                <button onclick="buttons('3')" class="but">3</button>
+                <button onclick="buttons('*')" class="but">x</button>
+            </div>
+            <div class="buttons">
+                <button onclick="buttons('.')" class="but">.</button>
+                <button onclick="buttons('0')" class="but">0</button>
+                <button onclick="buttons('/')" class="but">/</button>
+                <button onclick="butclear()" class="but">=</button>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>

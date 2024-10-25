@@ -1,0 +1,28 @@
+.calc{
+   
+    height:600px;
+    width:400px;
+    background: grey;
+    margin-left: 500px;
+}
+ 
+#etext{
+    width:98%;
+    border-color: black;
+    height:80px;
+    margin-top:5px;
+    pointer-events: none;
+}
+.buttons{ margin: 30px;
+ 
+
+}
+.but{
+    width:60px;
+    height:45px;
+    margin-left: 20px;
+}
+.clearDisplay{
+width:310px;
+height:45px;
+margin-left:20px;}
